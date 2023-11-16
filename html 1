@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Fin-GonzagaA-Act13</title>
+<link rel="stylesheet" href="Activity13.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+
+<h1>Application Form</h1> 
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br>
+  <label for="email">Email address:</label><br>
+  <input type="text" id="email" name="email" value=""><br>
+  <p>Please select your Gender:</p>
+  <input type="radio" id="Male" name="fav_language" value="Male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="Female" name="fav_language" value="Female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="Others" name="fav_language" value="Others">
+  <label for="others">Others</label><br>
+  <form action="/action_page.php"><br>
+  <label for="country">Choose a Country:</label><br>
+  <select id="country" name="country">
+    <option value="Afghanistan">Afghanistan</option>
+    <option value="Albania">Albania</option>
+    <option value="Algeria">Algeria</option>
+    <option value="Andorra">Andorra</option>
+    <option value="Australia">Australia</option>
+    <option value="Austria">Austria</option>
+    <option value="Bahamas">Bahamas</option>
+    <option value="Barbados">Barbados</option>
+    <option value="Philippines">Philippines</option>
+    <option value="Poland">Poland</option>
+     </select>
+</form><br>
+    <label for="country">Social Media Accounts:</label>
+<form action="/action_page.php" method="get">
+  <input type="checkbox" name="Social1" value="Facebook ">
+  <label for="social1"> Facebook </label><br>
+  <input type="checkbox" name="Socia2" value="Twitter ">
+  <label for="social2"> Twitter </label><br>
+  <input type="checkbox" name="Socia3" value="Skype ">
+  <label for="social3"> Skype </label><br>
+  <input type="checkbox" name="Socia4" value="Instagram ">
+  <label for="social4"> Instagram </label><br>
+  <input type="checkbox" name="Socia5" value="WeChat ">
+  <label for="social5"> WeChat </label><br><br>
+  <input type="submit" value="Submit"> 
+</form>
+ 
+
+</body>
+</html>
